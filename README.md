@@ -19,7 +19,7 @@ Electra is a cross-platform mobile and web application built for the **General E
 - Sign in / Sign out from Settings
 
 ### AI Chatbot (Electra AI)
-- Powered by **Groq API** (Llama 3.3 70B) — fast, free, and reliable
+- Powered by **Groq API** (Llama 3.3 70B)fast, free, and reliable
 - Strictly neutral - never endorses any party or candidate
 - **Multilingual** - responds in 11 Indian languages: English, Hindi, Telugu, Tamil, Kannada, Marathi, Bengali, Gujarati, Punjabi, Malayalam, Urdu
 - Language selector directly in the chat screen
