@@ -1,4 +1,4 @@
-# Electra – AI-Powered Election Assistant
+# Electra - AI-Powered Election Assistant
 
 > A civic tech Flutter app that helps citizens understand, prepare for, and participate in elections using AI.
 
@@ -6,7 +6,7 @@
 
 ## What is Electra?
 
-Electra is a cross-platform mobile and web application built for the **General Elections 2026**. It combines an AI chatbot, real-time election tools, and civic education into one accessible platform — designed for every Indian voter regardless of literacy level or language.
+Electra is a cross-platform mobile and web application built for the **General Elections 2026**. It combines an AI chatbot, real-time election tools, and civic education into one accessible platform designed for every Indian voter regardless of literacy level or language.
 
 ---
 
@@ -14,18 +14,18 @@ Electra is a cross-platform mobile and web application built for the **General E
 
 ### Authentication
 - Secure sign up with government-required fields: Full Name, Date of Birth, Mobile Number, Email
-- Age gate — minimum 18 years enforced at registration
+- Age gate minimum 18 years enforced at registration
 - Persistent login session using local storage
 - Sign in / Sign out from Settings
 
 ### AI Chatbot (Electra AI)
 - Powered by **Groq API** (Llama 3.3 70B) — fast, free, and reliable
-- Strictly neutral — never endorses any party or candidate
-- **Multilingual** — responds in 11 Indian languages: English, Hindi, Telugu, Tamil, Kannada, Marathi, Bengali, Gujarati, Punjabi, Malayalam, Urdu
+- Strictly neutral - never endorses any party or candidate
+- **Multilingual** - responds in 11 Indian languages: English, Hindi, Telugu, Tamil, Kannada, Marathi, Bengali, Gujarati, Punjabi, Malayalam, Urdu
 - Language selector directly in the chat screen
 - Suggestion chips for follow-up questions
 - Trust & Transparency metadata on every AI response
-- Sensitive query detection — redirects "who should I vote for" questions appropriately
+- Sensitive query detection - redirects "who should I vote for" questions appropriately
 
 ### Election Tools
 | Tool | Description |
@@ -46,7 +46,7 @@ Electra is a cross-platform mobile and web application built for the **General E
 - Clean, modern Material 3 design with a parrot green brand palette
 - Floating glassmorphism bottom navigation bar
 - Smooth animations via `flutter_animate`
-- Fully responsive — works on Android, iOS, and Web
+- Fully responsive - works on Android, iOS, and Web
 - Disclaimer banners on all AI-generated content
 
 ---
@@ -56,7 +56,7 @@ Electra is a cross-platform mobile and web application built for the **General E
 | Layer | Technology |
 |-------|-----------|
 | Framework | Flutter 3.x (Dart) |
-| AI / Chatbot | Groq API — Llama 3.3 70B Versatile |
+| AI / Chatbot | Groq API - Llama 3.3 70B Versatile |
 | State Management | Provider |
 | Navigation | GoRouter |
 | Backend / Auth | Firebase Auth + Firestore (optional), local auth via SharedPreferences |
@@ -94,7 +94,7 @@ Open `lib/config/constants.dart` and replace the key:
 static const String geminiApiKey = 'gsk_YOUR_GROQ_KEY_HERE';
 ```
 
-Get a free key at [console.groq.com/keys](https://console.groq.com/keys) — no billing required, 14,400 requests/day free.
+Get a free key at [console.groq.com/keys](https://console.groq.com/keys) no billing required, 14,400 requests/day free.
 
 ### Run
 
@@ -113,7 +113,7 @@ flutter run -d windows
 
 ## Firebase Setup (Optional)
 
-Firebase is optional — the app runs fully without it using local auth. To enable cloud sync:
+Firebase is optional the app runs fully without it using local auth. To enable cloud sync:
 
 ```bash
 # Install FlutterFire CLI
